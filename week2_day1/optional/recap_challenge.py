@@ -29,12 +29,12 @@ HINT: Use a range(5) with a for loop to loop 5 times
 HINT: To get user input and store it in a variable: name = input("Enter a name: ") 
 """
 
-# user_names = []
-# for _ in range(5):
-#     name = input("Enter a name: ")
-#     user_names.append(name)
+user_names = []
+for _ in range(5):
+    name = input("Enter a name: ")
+    user_names.append(name)
 
-# print(user_names)
+print(user_names)
 """
 Exercise 4:
 Write a program that takes a list of numbers and prints the largest and smallest numbers in the list.
@@ -74,8 +74,8 @@ Exercise 7:
 Write a program that prompts the user to enter a sentence and prints the sentence in reverse order.
 """
 
-# user_sentence = input("Write any sentence: ")
-# print(user_sentence[::-1])
+user_sentence = input("Write any sentence: ")
+print(user_sentence[::-1])
 
 """
 BONUS CHALLENGE!
