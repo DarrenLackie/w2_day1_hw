@@ -3,8 +3,8 @@ from modules.team import *
 players = ["Derice Bannock", "Sanka Coffie", "Junior Bevil", "Yul Brenner"]
 team = Team("Cool Runnings", players, "Irv Blitzer")
 
-# print(team.has_player("Junior Bevil"))  # True
-# print(team.has_player("Usain Bolt"))  # False
+print(team.has_player("Junior Bevil"))  # True
+print(team.has_player("Usain Bolt"))  # False
 
 team.add_player("Roger")
 print(team.has_player("Roger"))  # True

@@ -34,7 +34,7 @@ for _ in range(5):
     name = input("Enter a name: ")
     user_names.append(name)
 
-print(user_names)
+print(user_names.sorted())
 """
 Exercise 4:
 Write a program that takes a list of numbers and prints the largest and smallest numbers in the list.
